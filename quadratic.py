@@ -17,7 +17,7 @@ def quadratic_solver(a: float, b: float, c: float, complex_allowed: bool=False):
     Returns:
     list(float): The root(s) of the equation. May be complex if complex_allowed is True and discriminant is negative'''
     if a==0:
-        if b==1:
+        if b==0:
             ##If the quadratic and linear coefficients are both zero, raise a ValueError
             raise ValueError("Both 'a' and 'b' were zero, meaning there was no defined value for 'x'")
         else:
