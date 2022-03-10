@@ -5,6 +5,7 @@ import math
 
 
 def quadratic_solver(a: float, b: float, c: float, complex_allowed: bool=False):
+    return(None)
     '''Solves the quadratic equations in the form ax^2+bx+c=0, returning the roots as a list
     If complex roots are allowed, the returned values may be complex
     If complex roots are not allowed and there are no non-complex roots then a ValueError will be returned
